@@ -80,5 +80,23 @@ SELECT * FROM students
 | 3  | James | 18  |
 | 4  | Roger | 19  |
 
+## ✅ Learning Outcomes
 
+<details>
+<summary>
+Click to view my learning outcomes!
+  
+</summary>
+<br>
+
+
+The following SQL skills and concepts will be covered in this section:
+
+- Learning how to create table 
+- Learning how to insert into table 
+- Learned how to view table 
+- Learned how to automae id 
+  
+</details>
+  
 
