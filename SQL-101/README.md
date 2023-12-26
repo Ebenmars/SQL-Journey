@@ -1,4 +1,4 @@
-# Introduction Into SQL
+# Intro Into SQL
 
 ## 📌 1.0 Overview
 
@@ -46,18 +46,39 @@ DESC students
 ## Insert Into Table
 
 ```sql
-INSERT INTO CS_101 VALUES(‘Mike’,19);
+INSERT INTO students (name, age) VALUES ('Mike', 19);
 ```
+| id | name | age |
+|----|------|-----|
+| 1  | Mike | 19  |
+
 - We dont need to add the `id` in this case becuase we set it to auto
+
 
 ## Inserting Multiple Values
 
 ```sql
-INSERT INTO CS_101 VALUES(‘Jane,20),
-(‘James’,18),
-(‘Roger’,19);
+INSERT INTO students (name, age) VALUES ('Jane', 20), ('James', 18), ('Roger', 19);
 ```
+| id | name  | age |
+|----|-------|-----|
+| 1  | Mike  | 19  |
+| 2  | Jane  | 20  |
+| 3  | James | 18  |
+| 4  | Roger | 19  |
 
+## Looking At Data 
+```sql
+SELECT * FROM students
+```
+- The SQL statement `SELECT * FROM` students would retrieve all records from the students table.
+  
+| id | name  | age |
+|----|-------|-----|
+| 1  | Mike  | 19  |
+| 2  | Jane  | 20  |
+| 3  | James | 18  |
+| 4  | Roger | 19  |
 
 
 
